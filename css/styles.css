@@ -4,6 +4,11 @@
 
 }
 
+@font-face {
+  font-family: Welcome;
+  src: url(../fonts/Welcome.ttf);
+}
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -93,27 +98,31 @@ nav {
   padding: 0;
   display: flex;
   align-items: center;
+  text-align: center;
 }
+
 
 #logo img {
   width: 100%;
 }
 
 #logo-text span {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   text-wrap: nowrap;
-  color: #d670ef;
+  color: #c640e8;
+  font-family: Welcome;
+  width: 100%;
+}
+
+#logo-text::first-line {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
 }
 
 #logo img {
   width: 100%;
 }
 
-#logo-text span {
-  font-size: 0.7rem;
-  text-wrap: nowrap;
-  color: #d670ef;
-}
 
 @media screen and (max-width: 1674px) {
   nav {
@@ -136,13 +145,14 @@ nav {
     display: none;
   }
 
-.icon {
-  display: block;
-  position: absolute;
-  left: 50;
-  top: 100;
-  color: #d670ef;
-}
+  .icon {
+    display: block;
+    position: absolute;
+    left: 50;
+    top: 100;
+    color: #d670ef;
+  }
+
   .navbar.responsive a {
     float: none;
     display: block;
