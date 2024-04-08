@@ -170,7 +170,7 @@ h2 {
 
 /* ------------------------- QUERY @MEDIA RESPONSIVE  --------------------------------*/
 
-/* ------------------------- QUERY @MEDIA RESPONSIVE --------------------------------*/
+/* ------------------------- QUERY @MEDIA RESPONSIVE MAX WIDTH 550 PX--------------------------------*/
 @media only screen and (max-width: 1250px) {
   * {
     font-size: 6pt;
@@ -222,6 +222,10 @@ h2 {
 
 @media only screen and (max-width: 600px) {
 
+  *{ font-size: 10pt;}
+  .dropdown .btn {
+    font-size: 10pt;
+  }
 
   .navbar a:not(:first-child),
   .dropdown .btn {
@@ -254,22 +258,23 @@ h2 {
     display: block;
     text-align: left;
   }
+
   .homepage-box {
-   margin: 0 auto;
-  }
-
-  .fade img {
-    max-width: 350px;
-    max-height: 350px;
-
-  }
-
-  .numbertext,
-  .text {
-    max-width: 350px;
-    max-height: 350px;
-
-  }
+    margin: 0 auto;
+   }
+ 
+   .fade img {
+     max-width: 325px;
+     max-height: 350px;
+ 
+   }
+ 
+   .numbertext,
+   .text {
+     max-width: 325px;
+     max-height: 350px;
+ 
+   }
 
   h1 {
     margin-top: 7%;
