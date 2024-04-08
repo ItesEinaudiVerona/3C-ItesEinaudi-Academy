@@ -170,7 +170,7 @@ h2 {
 
 /* ------------------------- QUERY @MEDIA RESPONSIVE  --------------------------------*/
 
-/* ------------------------- QUERY @MEDIA RESPONSIVE MAX WIDTH 550 PX--------------------------------*/
+/* ------------------------- QUERY @MEDIA RESPONSIVE --------------------------------*/
 @media only screen and (max-width: 1250px) {
   * {
     font-size: 6pt;
@@ -254,17 +254,20 @@ h2 {
     display: block;
     text-align: left;
   }
+  .homepage-box {
+   margin: 0 auto;
+  }
 
   .fade img {
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 350px;
+    max-height: 350px;
 
   }
 
   .numbertext,
   .text {
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 350px;
+    max-height: 350px;
 
 
   }
