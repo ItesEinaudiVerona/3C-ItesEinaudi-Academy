@@ -777,6 +777,11 @@ aside a #active {
 
   }
 
+  #Premi_Riconoscimenti-text {
+    font-size: 12pt;
+    text-align: center;
+  }
+
   .social-media {
     text-align: left;
   }
